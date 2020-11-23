@@ -1,0 +1,252 @@
+* {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    line-height: 1.7;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+
+body {
+    background-color: white;
+}
+
+.container_cabecalho {
+    width: auto;
+    height: 90px;
+    margin-top: -10px;
+}
+
+.cabecalho {
+    width: auto;
+    height: 60px;
+    background-color: #B404AE;
+}
+
+#logo {
+    width: 180px;
+    height: 50px;
+    background-color:;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.menu {
+    height: 50px;
+    margin-left: 850px;
+    float: left;
+    margin-top: -50px;
+    background-color:;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.menu a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.texto-banner {
+    font-size: 40px;
+    line-height: 1.2;
+    margin-top: 55px;
+    margin-left: 200px;
+    z-index: 2;
+    width: 460px;
+    height: 0px;
+}
+
+.texto2-banner {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 55px;
+    margin-left: 200px;
+    z-index: 2;
+    width: 402px;
+    height: 0px;
+}
+
+.container_banner1 img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+}
+
+#bannermobile {
+    position: relative;
+    float: right;
+    margin-right: 100px;
+    top: 1px;
+    z-index: -1;
+    width: 26%;
+}
+
+.column1 {
+    float: left;
+    width: 33%;
+    padding: 18px;
+    height: 160px;
+    border-radius: 10px 0px 0px 10px;
+    margin: 1px;
+    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+}
+
+.column2 {
+    float: left;
+    width: 33%;
+    padding: 18px;
+    height: 160px;
+    margin: 0px;
+    margin-top: initial;
+    margin-right: 1px;
+    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+}
+
+.column3 {
+    float: left;
+    width: 33%;
+    padding: 18px;
+    height: 160px;
+    border-radius: 0px 10px 10px 0px;
+    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+}
+
+.row {
+    margin-top: -10;
+    margin-left: 75px;
+    width: 90.5%;
+    align-items: center;
+    display: inline-block;
+    position: relative;
+    float: center;
+}
+
+.container_mapa {
+    width: 80%
+    height: 50%;
+    float: right;
+    margin-right: 140px;
+}
+
+.texto-mapa {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 161%;
+    line-height: 1.2;
+    margin-top: -170;
+    margin-left: 200px;
+    z-index: 2;
+    width: 40%;
+    height: 0px;
+}
+
+.testimonials {
+    padding: 40px 0;
+    background: #f5ccf2;
+    color: #434343;
+    text-align: center;
+}
+
+.inner {
+    max-width: 100%;
+    min-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.border {
+    width: 160px;
+    height: 5px;
+    background: #90028b;;
+    margin: 0px auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+    border-radius: 7px;
+    transition: #000;
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.col:hover {
+    background-color: #d1b3c9;
+}
+
+.testimonial {
+    border-radius: 7px;
+    background: #fff;
+    padding: 30px;
+    max-width: auto;
+}
+
+.testimonial:hover {
+    background-color: #d1b3c9;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0px 0;
+}
+
+.stars {
+    color: #ee18b5;
+    margin-bottom: 20px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    color: white;
+    text-align: center;
+
+}
+@media screen and (max-width: 960px) {
+    .col {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .col {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .texto-mapa {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
